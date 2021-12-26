@@ -1,4 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  /* background: grey; */
+}
+
+.container{
+  /* background: tomato; */
+  width: 980px;
+  margin: auto;
+}
+
+.container-left{
+
+}
+
+.logo{
+  float: left;
+  margin-right: 5px;
+  
+}
+
+.logo img{
+  display: block;
+  /* width: 18px; */
+}
+
+.menu{
+  float: left;
+}
+
+.menu-item{
+  float: left;
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
 .apple{
+  font-size: 20px;
   color: green;
 }
 
+.box{
+  height: 200px;
+  width: 300px;
+  background: green;
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.blockElement{
+  background: coral;
+  height: 20px;
+}
+
+.inlineElement{
+  background: cornflowerblue;
+  margin: 20px;
+  padding: 20px;
+}
+
+.spanElement{
+  background: darksalmon;
+  height: 300px;
+  /* width: 300px; 원래는 inline element는 크기를 가질 수 없는 요소이다. */
+  display: block;
+}
+
+.divElement{
+  background: darkviolet;
+  width: 300px;
+  height: 300px;
+  display: inline;
+  /* div 는 block element 이지만 display 를 통해 inline element로 바꿀 수 있다. */
+}

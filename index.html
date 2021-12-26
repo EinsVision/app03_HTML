@@ -4,30 +4,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="EinsVision">
-  <meta name="descripton" contents="This is practice for HTML.">
+  <meta name="descripton" content="This is practice for HTML.">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="./favicon-96x96.png">
   <title>EinsVision</title> 
   <style>
-    img{
+    img{ 
       width: 200px;
     }
   </style>
   <script src="action.js"></script>
 </head>
 <body>
+  <div class="header">
+    <div class="container">
+      <div class="container-left clearfix ">
+        <div class="logo">
+          <img src="https://heropcode.github.io/GitHub-Responsive/img/logo.svg" alt="Github Logo">
+        </div>
+        <div class="menu clearfix">
+          <div class="menu-item">Personal</div>
+          <div class="menu-item">Open Source</div>
+          <div class="menu-item">Business</div>
+          <div class="menu-item">Explore</div>
+        </div>
+      </div>
+    </div>
+  </div>
   <img src="./IMG_0005.JPG" alt="Boyoung"/>
   <section class="fruits">
     <h1>Fruits</h1>
     <ul>
       <li class="apple">Apple</li>
-      <li>Strawberry</li>
-      <li>Banana</li>
+      <li style="color: tomato;">Strawberry</li>
+      <li style="font-size: large; color: darkorchid">Banana</li>
       <li>Orange</li>
     </ul>
   </section>
-  
+    
+  <section class="practice1">
+    <div style="color: red;">안녕하세요.</div>
+  </section>
+
+  <div class="box">
+    box-text
+  </div>
+  <div class="box">
+    box-text
+  </div>
+
+  <!-- margin (요소의 바깥 여백) -->
+  <!-- padding (요소의 내부 여백) -->
+
+  <section>
+    <!-- block element, inline element -->
+    <!-- 1. block element
+    1.1 DIV, H1, P
+    1.2 사용 가능한 최대 가로 너비를 사용한다.
+    1.3 크기를 지정할 수 있다.
+    1.4 시작부분: width 100% / height 0
+    1.5 수직으로 쌓인다.
+    1.6 margin, padding 위, 아래, 좌, 우 사용 가능하다.
+    1.7 Layout을 잡는 용도로 사용한다.
+
+    2. inline element
+    2.1 SPAN, IMG
+    2.2 필요한 만큼의 너비를 사용한다.
+    2.3 크기를 지정할 수 없다.
+    2.4 시작부분: width 0 / height 0 
+    2.5 수평으로 쌓인다.
+    2.6 margin, padding 위, 아래는 사용을 할 수 없다.
+    2.7 Text를 쓰는 용도로 사용한다.
+    -->
+
+    <div class="blockElement">
+
+    </div>
+    <span class="inlineElement">
+      hello!!
+    </span>
+
+    <span class="spanElement">
+      SpanTag_InlineElement
+    </span>
+    <div class="divElement">
+      divElement_BlockElement
+    </div>
+  </section>
 </body>
 </html>
