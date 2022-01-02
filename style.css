@@ -83,3 +83,51 @@ body{
   display: inline;
   /* div 는 block element 이지만 display 를 통해 inline element로 바꿀 수 있다. */
 }
+
+header{
+  background: chartreuse;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+main{
+  display: flex;
+}
+section {
+  width: 70%;
+  background: darkcyan;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+article{
+  background: yellowgreen;
+  margin: 10px;
+  padding: 10px;
+}
+
+aside {
+  width: 30%;
+  background: aqua;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+footer{
+  background: brown;
+  margin: 10px;
+  padding: 20px;
+}
+
+footer address a {
+  display: block;
+}

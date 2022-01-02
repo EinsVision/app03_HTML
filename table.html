@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./table.css">
+  <title>Table excercise</title>
+</head>
+<body>
+  <div id="me" data-my-name="changdae" data-my-age="851">Changdae</div>
+
+  <script>
+    const me = document.getElementById("me");
+    console.log(me.dataset.myName);
+    console.log(me.dataset.myAge);
+  </script>
+
+  <div draggable="true">The element to drag.</div>
+
+  <input type="text" value="1">
+  <input type="text" value="2">
+  <div tabindex="0">2.5</div>
+  <input type="text" value="3">
+  <input type="text" value="4" tabindex="-1">
+  <input type="text" value="5">
+
+  Hello&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;world!
+  <br>
+  &lt;div&gt;&lt;/div&gt;
+</body>
+</html>
