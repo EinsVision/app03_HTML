@@ -1,0 +1,63 @@
+article{
+
+}
+
+article .picture{
+  width: 200px;
+  height: 150px;
+  background: tomato;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+article .text{
+  clear: left;
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  background: violet;
+  margin: 5px;
+  float: left;
+  /* clear: right; */
+}
+
+.box4{
+  width: 150px;
+  height: 150px;
+  background: orangered;
+  margin: 5px;
+  clear: left;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.float-box{
+  width: 150px;
+  height: 150px;
+  background: plum;
+  margin: 5px;
+  float: left;
+}
+
+.new-box{
+  width: 200px;
+  height: 200px;
+  background: skyblue;
+  margin: 5px;
+}
+
+span{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: teal;
+  /* display: block; */
+  float: left;
+}
