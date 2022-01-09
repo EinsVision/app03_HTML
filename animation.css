@@ -1,0 +1,122 @@
+.box{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background: tomato;
+}
+
+.box:hover{
+  animation: first-ani 1.5s infinite alternate;
+}
+
+@keyframes first-ani{
+  0%{
+    width: 100px;
+    background: tomato;
+  }
+
+  75%{
+    width: 500px;
+    background: turquoise;
+  }
+
+  100%{
+    width: 300px;
+    background: yellowgreen;
+  }
+}
+
+.box_ani{
+  width: 150px;
+  height: 150px;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1{
+  background: brown;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.box2{
+  background: skyblue;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.box3{
+  background: yellowgreen;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.box1:hover{
+  animation: size-up 1s 2 alternate;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+
+.box2:hover{
+  animation: size-up 1s 2 alternate;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+.box3:hover{
+  animation: size-up 1s 2 alternate;
+  animation-timing-function: linear;
+  animation-delay: -1s;
+}
+
+@keyframes size-up{
+  0%{
+    width: 150px;
+  }
+
+  100%{
+    width: 300px;
+  }
+}
+
+.box_ani2{
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  border-radius: 10px;
+  animation: movemove 2s  linear reverse;
+  animation-fill-mode: both;
+  margin: 100px;
+}
+
+
+@keyframes movemove{
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25%{
+    transform: translate(100px, 0);
+  }
+
+  50%{
+    transform: translate(100px, 100px);
+  }
+
+  75%{
+    transform: translate(0, 100px);
+  }
+
+  100%{
+    transform: translate(0, 0);
+  }
+}
+
+p{
+  column-width: 200px;
+  column-gap: 50px;
+  column-rule: 1px solid red;
+}
