@@ -1,0 +1,134 @@
+body{
+  height: 4000px;
+}
+
+.parent{
+  width: 400px;
+  height: 300px;
+  border: 4px dashed skyblue;
+  
+}
+
+.child{
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  border: 4px dashed red;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background: slateblue;
+  margin: 5px;
+  border: 4px dashed tomato;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.relative{
+  position: relative;
+  top: 20px;
+  left: 150px;
+}
+
+.grand-parent{
+  width: 400px;
+  height: 300px;
+  padding: 30px 100px 100px 30px;
+  border: 4px dashed lightgray;
+  position: relative;
+}
+
+.parent_a{
+  width: 400px;
+  height: 300px;
+  border: 4px dashed skyblue;
+  
+}
+
+.child_a{
+  width: 120px;
+  height: 85px;
+  background: coral;
+  border: 4px dashed slategrey;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.abolute{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.section{
+  height: 200px;
+  border: 4px dashed lightslategray;
+
+}
+
+.section h1 {
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.box-group{
+  display: flex;
+}
+
+.box-group .box_d{
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  border: 4px dashed red;
+  border-radius: 10px;
+  margin-right: -35px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-group .box_d:nth-child(2n) {
+  margin-top: 30px;
+}
+
+.box1{
+  position: relative;
+}
+
+.box2{
+
+}
+
+.box3{
+  position: relative;
+  z-index: 1;
+}
+
+.box4{
+  position: relative;
+}
+
+.box5{
+
+}
+
+.inline{
+  width: 100px;
+  height: 100px;
+  background: cornflowerblue;
+  position: fixed;
+}
