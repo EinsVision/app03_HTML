@@ -1,0 +1,35 @@
+.box{
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  margin: 50px;
+  transition: all 1s;
+  /* transition-timing-function: steps(4); */
+  /* transition-delay: 1s; */
+}
+
+.box:hover{
+  width: 300px;
+  
+ 
+  background: cornflowerblue;
+}
+
+.box_trans{
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  /* transform: rotate(90deg); */
+  transition: 1s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.box_trans:hover{
+  /* transform: translate(30px, 30px); */
+  /* transform: scale(.8); */
+  transform: translate(30px, 30px) skew(45deg);
+}
